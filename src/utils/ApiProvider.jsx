@@ -1,6 +1,6 @@
 
 import axios from "axios";
-const baseURL = 'http://localhost:3000/api/v1';
+const baseURL = 'https://smartbackend-production-85b3.up.railway.app/api/v1';
 
 export const GET = async (url, headers = {}) => {
     try {
